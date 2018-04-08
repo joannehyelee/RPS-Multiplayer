@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Rock Paper Scissors</title>
+
+	<meta name="description" content="Joanne Kim">
+	<meta name="keywords" content="Joanne Kim">
+	<meta name="author" content="Joanne Kim">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<link rel="icon" type="image/png" href="" sizes="64x64">
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron text-white rounded">
+            <h1 class="display-3 text-center">Rock Paper Scissors</h1>
+        </div>
+    
+        <!-- <div class="card">
+            <div class="card-body text-center" id="buttons-div">
+                
+            </div>
+            <p class="text-center small">*Click a button to display gifs</p>
+        </div> -->
+        <div class="card">
+            <div class="card-body" id="player-info">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Enter your name:</label>
+                        <input type="text" class="form-control" id="name">
+                        <button type="submit" class="btn btn-info btn-sm" id="start-button">Start</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+        <div class="container">
+            <div class="row">
+                <div class="card col-md-4 info text-center">
+                    <div id="player-one">
+                        <p>Waiting for Player 1</p>
+                    </div>
+                    <div id="choice">
+                        <h2>Rock</h2>
+                    </div>
+                    <div id="score">
+                        <p>Wins: 0 | Losses: 0</p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 info">
+                    <div class="card-body text-center" id="result">
+                        <p></p>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 info text-center">
+                        <div id="player-two">
+                            <p>Waiting for Player 2</p>
+                        </div>
+                        <div id="choice">
+                            <h2>Scissors</h2>
+                        </div>
+                        <div id="score">
+                            <p>Wins: 0 | Losses: 0</p>
+                        </div>
+                    </div>
+            </div>         
+        </div>
+
+    </div>
+
+	<!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    
+    <!-- Firebase -->
+
+
+	<!-- Bootstrap JS -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<script src="assets/javascript/app.js"></script>
+</body>
+</html>
